@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9152E87325386E37D11536D6 /* Pods_iDress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE97ED90CD40CB60F1F67CFE /* Pods_iDress.framework */; };
 		DAB7DDAF2395C82A0033FCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDAE2395C82A0033FCDD /* AppDelegate.swift */; };
 		DAB7DDB12395C82A0033FCDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDB02395C82A0033FCDD /* ViewController.swift */; };
 		DAB7DDB42395C82A0033FCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB7DDB22395C82A0033FCDD /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		DAB7DDB92395C82D0033FCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB7DDB72395C82D0033FCDD /* LaunchScreen.storyboard */; };
 		DAB7DDC42395C82D0033FCDD /* iDressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDC32395C82D0033FCDD /* iDressTests.swift */; };
 		DAB7DDCF2395C82D0033FCDD /* iDressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDCE2395C82D0033FCDD /* iDressUITests.swift */; };
+		DAB7DDDD2395CBCB0033FCDD /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDDC2395CBCB0033FCDD /* PictureViewController.swift */; };
+		DAB7DDDF2395D2250033FCDD /* Outfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDDE2395D2250033FCDD /* Outfit.swift */; };
+		DAB7DDE123977D3A0033FCDD /* outfitStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDE023977D3A0033FCDD /* outfitStruct.swift */; };
+		DAB7DDE32397809A0033FCDD /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDE22397809A0033FCDD /* QuestionViewController.swift */; };
+		DAB7DDE5239785DE0033FCDD /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDE4239785DE0033FCDD /* TransitionViewController.swift */; };
+		DAB7DDE723978A600033FCDD /* OutfitSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDE623978A600033FCDD /* OutfitSelectionViewController.swift */; };
+		DAB7DDE92397EBC10033FCDD /* VibeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDE82397EBC10033FCDD /* VibeViewController.swift */; };
+		DAB7DDEB2397EDEA0033FCDD /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDEA2397EDEA0033FCDD /* EndViewController.swift */; };
+		DAB7DDED239814590033FCDD /* weatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7DDEC239814590033FCDD /* weatherInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC17152E3D1BAF0851AD839C /* Pods-iDress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDress.debug.xcconfig"; path = "Target Support Files/Pods-iDress/Pods-iDress.debug.xcconfig"; sourceTree = "<group>"; };
 		DAB7DDAB2395C82A0033FCDD /* iDress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB7DDAE2395C82A0033FCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB7DDB02395C82A0033FCDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,17 @@
 		DAB7DDCA2395C82D0033FCDD /* iDressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB7DDCE2395C82D0033FCDD /* iDressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDressUITests.swift; sourceTree = "<group>"; };
 		DAB7DDD02395C82D0033FCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB7DDDC2395CBCB0033FCDD /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		DAB7DDDE2395D2250033FCDD /* Outfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outfit.swift; sourceTree = "<group>"; };
+		DAB7DDE023977D3A0033FCDD /* outfitStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = outfitStruct.swift; sourceTree = "<group>"; };
+		DAB7DDE22397809A0033FCDD /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		DAB7DDE4239785DE0033FCDD /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		DAB7DDE623978A600033FCDD /* OutfitSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitSelectionViewController.swift; sourceTree = "<group>"; };
+		DAB7DDE82397EBC10033FCDD /* VibeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibeViewController.swift; sourceTree = "<group>"; };
+		DAB7DDEA2397EDEA0033FCDD /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		DAB7DDEC239814590033FCDD /* weatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherInfo.swift; sourceTree = "<group>"; };
+		FB06E5F544314EBED8FA5881 /* Pods-iDress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDress.release.xcconfig"; path = "Target Support Files/Pods-iDress/Pods-iDress.release.xcconfig"; sourceTree = "<group>"; };
+		FE97ED90CD40CB60F1F67CFE /* Pods_iDress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9152E87325386E37D11536D6 /* Pods_iDress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155C27F6AA9C43B337AC02D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE97ED90CD40CB60F1F67CFE /* Pods_iDress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0D3D309E7EEA4CA8B7D968B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC17152E3D1BAF0851AD839C /* Pods-iDress.debug.xcconfig */,
+				FB06E5F544314EBED8FA5881 /* Pods-iDress.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DAB7DDA22395C82A0033FCDD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				DAB7DDC22395C82D0033FCDD /* iDressTests */,
 				DAB7DDCD2395C82D0033FCDD /* iDressUITests */,
 				DAB7DDAC2395C82A0033FCDD /* Products */,
+				C0D3D309E7EEA4CA8B7D968B /* Pods */,
+				155C27F6AA9C43B337AC02D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +140,16 @@
 			isa = PBXGroup;
 			children = (
 				DAB7DDAE2395C82A0033FCDD /* AppDelegate.swift */,
+				DAB7DDDE2395D2250033FCDD /* Outfit.swift */,
+				DAB7DDE023977D3A0033FCDD /* outfitStruct.swift */,
+				DAB7DDEC239814590033FCDD /* weatherInfo.swift */,
 				DAB7DDB02395C82A0033FCDD /* ViewController.swift */,
+				DAB7DDDC2395CBCB0033FCDD /* PictureViewController.swift */,
+				DAB7DDE22397809A0033FCDD /* QuestionViewController.swift */,
+				DAB7DDE4239785DE0033FCDD /* TransitionViewController.swift */,
+				DAB7DDE82397EBC10033FCDD /* VibeViewController.swift */,
+				DAB7DDE623978A600033FCDD /* OutfitSelectionViewController.swift */,
+				DAB7DDEA2397EDEA0033FCDD /* EndViewController.swift */,
 				DAB7DDB22395C82A0033FCDD /* Main.storyboard */,
 				DAB7DDB52395C82D0033FCDD /* Assets.xcassets */,
 				DAB7DDB72395C82D0033FCDD /* LaunchScreen.storyboard */,
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAB7DDD32395C82D0033FCDD /* Build configuration list for PBXNativeTarget "iDress" */;
 			buildPhases = (
+				E6830A7EF7898013534B3E56 /* [CP] Check Pods Manifest.lock */,
 				DAB7DDA72395C82A0033FCDD /* Sources */,
 				DAB7DDA82395C82A0033FCDD /* Frameworks */,
 				DAB7DDA92395C82A0033FCDD /* Resources */,
+				B4C4F0B148E625DEFCFEE93A /* [CP] Embed Pods Frameworks */,
+				E874DC58FEC23612221FD3CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +305,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4C4F0B148E625DEFCFEE93A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iDress/Pods-iDress-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iDress/Pods-iDress-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iDress/Pods-iDress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6830A7EF7898013534B3E56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iDress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E874DC58FEC23612221FD3CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iDress/Pods-iDress-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iDress/Pods-iDress-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iDress/Pods-iDress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DAB7DDA72395C82A0033FCDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DAB7DDB12395C82A0033FCDD /* ViewController.swift in Sources */,
+				DAB7DDDD2395CBCB0033FCDD /* PictureViewController.swift in Sources */,
+				DAB7DDED239814590033FCDD /* weatherInfo.swift in Sources */,
+				DAB7DDE32397809A0033FCDD /* QuestionViewController.swift in Sources */,
+				DAB7DDDF2395D2250033FCDD /* Outfit.swift in Sources */,
+				DAB7DDE123977D3A0033FCDD /* outfitStruct.swift in Sources */,
+				DAB7DDE5239785DE0033FCDD /* TransitionViewController.swift in Sources */,
+				DAB7DDEB2397EDEA0033FCDD /* EndViewController.swift in Sources */,
+				DAB7DDE723978A600033FCDD /* OutfitSelectionViewController.swift in Sources */,
 				DAB7DDAF2395C82A0033FCDD /* AppDelegate.swift in Sources */,
+				DAB7DDE92397EBC10033FCDD /* VibeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +552,7 @@
 		};
 		DAB7DDD42395C82D0033FCDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC17152E3D1BAF0851AD839C /* Pods-iDress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +571,7 @@
 		};
 		DAB7DDD52395C82D0033FCDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB06E5F544314EBED8FA5881 /* Pods-iDress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
