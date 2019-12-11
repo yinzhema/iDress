@@ -25,17 +25,4 @@ class EndViewController: UIViewController {
         }
     }
     
-//    @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
-//        saveToUserDefaults()
-//    }
-    
-//    func saveToUserDefaults(){
-//        let encoder=JSONEncoder()
-//        if let encoded=try? encoder.encode(Outfits){
-//            UserDefaults.standard.set(encoded, forkey:"Outfits")
-//        } else{
-//            print("ERROR: Saving encoded didn't work")
-//        }
-//    }
-    
 }
